@@ -6,10 +6,10 @@ import Home from "./Home/Home.jsx";
 import About from "./About/About.jsx";
 import Project from "./Project/Project.jsx";
 import Skill from "./Skills/Skill.jsx";
-import {RouterProvider,createBrowserRouter} from "react-router-dom";
+import {RouterProvider,createHashRouter} from "react-router-dom";
 
 
-const router = createBrowserRouter([{
+const router = createHashRouter([{
     path:'/',
     element:<App/>,
     children:[
