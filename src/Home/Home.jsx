@@ -11,7 +11,7 @@ function  Home(){
                             I'm <span className="text-rose-600">Yatin</span> Aggarwal
                         </div>
                         <div className="w-full pb-1/50">
-                            This is Yatin Aggarwal Deep Learning Enthusiast, Web Developer and Compettive Programmer.
+                            This is Yatin Aggarwal Deep Learning Enthusiast, Web Developer and Competitive Programmer.
                         </div>
                         <a href="https://1drv.ms/b/s!Ar7dOmZ1loYAhgHC_r_HU7Q1mzrj?e=sgmESh">
                             <button className=" bg-rose-600 p-1% text-amber-50 hover:bg-rose-700">

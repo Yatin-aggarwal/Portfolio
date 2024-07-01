@@ -3,16 +3,15 @@ import Project_Discription from "./Project_Discription.js";
 
 function Project_Card(props){
     return(
-        <div className="h-full grid grid-cols-3 border-2 border-solid rounded-2xl ">
+        <div className="h-full grid grid-cols-4 border-2 border-solid rounded-2xl ">
             <div className="ps-1/10 pe-1/10 flex justify-center items-center text-amber-50 h-full bg-gradient-to-r from-cyan-500 to-blue-500  rounded-s-2xl" >
                 {props.title}
             </div>
-            <div className="col-span-2  rounded-2xl">
-                <div className=" h-2/3 bg-blue-200 text-sm rounded-se-2xl ps-2% pt-1% ">
-
+            <div className="col-span-3  rounded-2xl">
+                <div className=" h-3/4 bg-blue-200 text-sm rounded-se-2xl ps-2% pt-1%  ">
                     {props.content}
                 </div>
-                <div className="h-1/3 flex justify-center items-center gap-2/10">
+                <div className="h-1/4 flex justify-center items-center gap-2/10">
                     <button type="button"
                             className="h-7/10 bg-blue-900 text-amber-50 w-1/3 rounded-2xl ">Demo
 

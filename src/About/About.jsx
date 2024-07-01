@@ -2,7 +2,7 @@ function  About(){
     return (
         <div className="h-9/10  grid grid-cols-2 ">
             <div className="grid justify-items-center mt-1/50">
-                <img src={"src/About/Img.jpg"} className=" rounded-2xl h-9/10"/>
+                <img src={"https://onedrive.live.com/embed?resid=869675663ADDBE%21773&authkey=%21AJ8skQPb-r7sRlg&width=1024&height=887"} className=" rounded-2xl h-9/10"/>
             </div>
             <div className=" mt-1/50 w-full ">
                 <div className="w-full ">
