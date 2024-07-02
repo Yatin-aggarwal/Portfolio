@@ -1,4 +1,3 @@
-import project_Discription from "./Project_Discription.js";
 import Project_Discription from "./Project_Discription.js";
 
 function Project_Card(props){
@@ -8,18 +7,22 @@ function Project_Card(props){
                 {props.title}
             </div>
             <div className="col-span-3  rounded-2xl">
-                <div className=" h-3/4 bg-blue-200 text-sm rounded-se-2xl ps-2% pt-1%  ">
-                    {props.content}
+                <div className=" lg:h-3/4 bg-blue-200   rounded-se-2xl ps-2% pt-2% pe-2% md:h-4/5 ">
+                   <div className=" lg:text-sm  md:text-xs "> {props.content}</div>
                 </div>
-                <div className="h-1/4 flex justify-center items-center gap-2/10">
-                    <button type="button"
-                            className="h-7/10 bg-blue-900 text-amber-50 w-1/3 rounded-2xl ">Demo
+                <div className="lg:h-1/4 flex justify-center items-center gap-2/10 md:h-1/5">
+                    <a className="w-1/4 h-7/10 md:h-3/4" href={props.github}>
+                        <button type="button"
+                                className=" h-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br w-full rounded-xl md:text-sm">Github
 
-                    </button>
-                    <button type="button"
-                            className="h-7/10 bg-blue-900 text-amber-50 w-1/3 rounded-2xl">Github
+                        </button>
+                    </a>
+                    <a className="w-1/4 h-7/10 md:h-3/4" href={props.demo}>
+                        <button type="button"
+                                className=" h-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br w-full rounded-xl md:text-sm">Results
 
-                    </button>
+                        </button>
+                    </a>
                 </div>
             </div>
 
@@ -33,24 +36,24 @@ function Project() {
     return (
         <>
             <div
-                className=" h-1/10 pb-1% w-full ps-1/50 grid items-center justify-items-center font-bold text-2xl font-sans ">
+                className=" h-1/10 pb-0.5% w-full ps-1/50 grid items-center justify-items-center font-bold text-xl font-sans">
                 Recent Projects
             </div>
-            <div className="h-8/10 grid grid-rows-3 gap-3">
-                <div className="grid grid-cols-3 gap-5 ms-1/50 me-1/50">
-                    <Project_Card{...project_Discription.Pixel_Prankster}/>
-                    <Project_Card{...project_Discription.Sakura_trails}/>
-                    <Project_Card{...project_Discription.Waifu_gan}/>
+            <div className="h-8/10 grid grid-rows-3 gap-1%">
+                <div className="grid grid-cols-3 gap-2% md:ms-1% md:me-1% md:gap-0.5%">
+                    <Project_Card{...Project_Discription.Pixel_Prankster}/>
+                    <Project_Card{...Project_Discription.Sakura_trails}/>
+                    <Project_Card{...Project_Discription.Waifu_gan}/>
                 </div>
-                <div className="grid grid-cols-3 gap-5 ms-1/50 me-1/50">
+                <div className="grid grid-cols-3 gap-2% md:ms-1% md:me-1% md:gap-0.5%">
                     <Project_Card{...Project_Discription.WGAN_GP}/>
-                    <Project_Card{...project_Discription.Style_transfer}/>
-                    <Project_Card{...project_Discription.Sucide_Watch}/>
+                    <Project_Card{...Project_Discription.Style_transfer}/>
+                    <Project_Card{...Project_Discription.Sucide_Watch}/>
                 </div>
-                <div className="grid grid-cols-3 gap-5 ms-1/50 me-1/50">
+                <div className="grid grid-cols-3 gap-2% md:ms-1% md:me-1% md:gap-0.5%">
                     <Project_Card{...Project_Discription.Simple_Gan}/>
-                    <Project_Card{...project_Discription.Titanic_Survival_Analysis}/>
-                    <Project_Card{...project_Discription.Password_generator}/>
+                    <Project_Card{...Project_Discription.Titanic_Survival_Analysis}/>
+                    <Project_Card{...Project_Discription.Password_generator}/>
                 </div>
 
             </div>

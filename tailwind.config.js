@@ -5,6 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '200px',
+      'md': '960px',
+      'lg': '1440px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       spacing:{
         '2%':'2%',
@@ -21,9 +28,8 @@ export default {
         '8%':'9%',
         '3%':'3%',
         '0.5%':'0.5%'
+      },
 
-
-      }
     },
   },
   plugins: [],

@@ -13,7 +13,7 @@ function  Home(){
                         <div className="w-full pb-1/50">
                             This is Yatin Aggarwal Deep Learning Enthusiast, Web Developer and Competitive Programmer.
                         </div>
-                        <a href="https://1drv.ms/b/s!Ar7dOmZ1loYAhgHC_r_HU7Q1mzrj?e=sgmESh">
+                        <a href="https://onedrive.live.com/download?resid=869675663ADDBE%21779&authkey=!AGpJM7E_l1-oT7I&em=2">
                             <button className=" bg-rose-600 p-1% text-amber-50 hover:bg-rose-700">
                                 Download CV
                             </button>
