@@ -8,7 +8,7 @@ function Project_Card(props){
             <div className=" h-1/6 w-full  flex justify-end pb-1/10">
                 <div
                     className={`md:${props.gradient_start}  group-hover:bg-transparent  text-white text-2xl font-extrabold w-1/3 flex justify-center items-center  rounded-tr-2xl rounded-bl-2xl  `}>
-                    {1}
+                    {props.count}
                 </div>
             </div>
             <div

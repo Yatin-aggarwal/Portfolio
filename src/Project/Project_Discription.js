@@ -4,7 +4,8 @@ const Project_Discription= {
        content:"Pixel Prompt is a Generative AI project that creates anime character images from user prompts. Using AI technology, it generates unique and vibrant characters based on custom input, bringing user imagination to life in a stunning visual format. ",
        github:'https://github.com/Yatin-aggarwal/Pixel_Prompt',
        gradient:'hover:bg-gradient-to-b from-teal-400 to-yellow-200',
-       gradient_start:' bg-teal-400'
+       gradient_start:' bg-teal-400',
+       count:"1"
 
    },
     Sky_Watch:{
@@ -12,7 +13,8 @@ const Project_Discription= {
         content:'Sky Watch is a single-page React web app offering real-time global weather forecasts. Users can select any city worldwide and access detailed weather information, including wind speed and direction, humidity, visibility, and pressure, all in one convenient and interactive platform.',
         github:'https://github.com/Yatin-aggarwal/Sky-Watch',
         gradient:'hover:bg-gradient-to-b from-red-500 to-orange-500',
-        gradient_start:' bg-red-500 '
+        gradient_start:' bg-red-500 ',
+        count:"2"
 
     },
      Color_World:{
@@ -20,7 +22,8 @@ const Project_Discription= {
         content:'Color World harnesses the power of neural network to generate color images from its grayscale input. It basically works on the concept of variational encoder colorize images. Model is trained on large CIFAE 10 Dataset. ',
         github:'https://github.com/Yatin-aggarwal/Color_World',
         gradient:'hover:bg-gradient-to-b from-rose-400 to-orange-300',
-        gradient_start:' bg-rose-400 '
+        gradient_start:' bg-rose-400 ',
+         count:"3"
 
     },
     Pixel_Prankster :{
@@ -28,7 +31,9 @@ const Project_Discription= {
         content:'This React website utilizes Hugging Face\'s Stable Diffusion model API to generate images based on user input, with a sleek frontend built using Tailwind CSS for a responsive and visually appealing design. ',
         github:'https://github.com/Yatin-aggarwal/Pixel-Prankster/tree/main/Pixel%20Prankster',
         gradient:"hover:bg-gradient-to-b from-emerald-400 to-cyan-400",
-        gradient_start:" bg-emerald-400 "
+        gradient_start:" bg-emerald-400 ",
+        count:"4",
+
 
     },
 
@@ -38,7 +43,8 @@ const Project_Discription= {
         demo:'https://1drv.ms/i/s!Ar7dOmZ1loYAhDaA5bFTgE9G_Bl3?e=Ym6Pxt',
         github:'https://github.com/Yatin-aggarwal/Waifu-Face-Gan',
         gradient:'hover:bg-gradient-to-b from-amber-500 to-pink-500',
-        gradient_start: ' bg-amber-500'
+        gradient_start: ' bg-amber-500',
+        count:"5"
     },
     Sakura_trails : {
         title:'Sakura trails',
@@ -46,7 +52,8 @@ const Project_Discription= {
         demo:'https://1drv.ms/v/s!Ar7dOmZ1loYAhDgwpXXLT6HrJ8ub?e=54JCje',
         github:'https://github.com/Yatin-aggarwal/Sakura-Trails',
         gradient: 'hover:bg-gradient-to-b from-purple-200 to-purple-800',
-        gradient_start:' bg-purple-200'
+        gradient_start:' bg-purple-200',
+        count:"6"
     },
 
 
@@ -56,7 +63,8 @@ const Project_Discription= {
         demo:'https://1drv.ms/i/s!Ar7dOmZ1loYAhgZwt7z-q3q3aH6L?e=1738iA',
         github:'https://github.com/Yatin-aggarwal/WGAN_GP',
         gradient:'hover:bg-gradient-to-b from-teal-400 to-yellow-200',
-       gradient_start:' bg-teal-400'
+       gradient_start:' bg-teal-400',
+        count:"7"
     },
     Style_transfer:{
         title:'Style Transfer',
@@ -64,7 +72,8 @@ const Project_Discription= {
         demo:'https://github.com/Yatin-aggarwal/Neural_Style_Transfer_Learning/blob/master/Result.jpg',
         github:'https://github.com/Yatin-aggarwal/Neural_Style_Transfer_Learning',
         gradient:'hover:bg-gradient-to-b from-red-500 to-orange-500',
-        gradient_start:' bg-red-500 '
+        gradient_start:' bg-red-500 ',
+        count:"8"
     },
     Simple_Gan:{
         title:'Simple Gan',
@@ -72,7 +81,8 @@ const Project_Discription= {
         demo:'https://github.com/Yatin-aggarwal/Simple-gan/blob/main/Screenshot%20from%202024-04-06%2022-28-35.png',
         github:'https://github.com/Yatin-aggarwal/Simple-gan',
         gradient:'hover:bg-gradient-to-b from-rose-400 to-orange-300',
-        gradient_start:' bg-rose-400 '
+        gradient_start:' bg-rose-400 ',
+        count:"9"
 
     },
     Sucide_Watch:{
@@ -81,7 +91,8 @@ const Project_Discription= {
         demo:'https://1drv.ms/f/s!Ar7dOmZ1loYAhgrg7_IOROujkAmu?e=VROUm1',
         github:'https://github.com/Yatin-aggarwal/Suicide-Watch-',
         gradient:"hover:bg-gradient-to-b from-emerald-400 to-cyan-400",
-        gradient_start:" bg-emerald-400 "
+        gradient_start:" bg-emerald-400 ",
+        count:"10"
 
     },
     Titanic_Survival_Analysis:{
@@ -90,7 +101,8 @@ const Project_Discription= {
         demo:'https://1drv.ms/i/s!Ar7dOmZ1loYAhghiLsU8jtm5xavc?e=pePV8F',
         github:'https://github.com/Yatin-aggarwal/Kaggle/blob/main/Predicting_survival_in_titanic.ipynb',
         gradient:'hover:bg-gradient-to-b from-amber-500 to-pink-500',
-        gradient_start: ' bg-amber-500'
+        gradient_start: ' bg-amber-500',
+        count:"11"
     },
     Password_generator:{
         title:'Password Generator',
@@ -98,7 +110,8 @@ const Project_Discription= {
         demo:'https://github.com/Yatin-aggarwal/Password-Generator/blob/main/Screenshot%20from%202024-04-20%2010-19-58.png',
         github:'https://github.com/Yatin-aggarwal/Password-Generator',
          gradient: 'hover:bg-gradient-to-b from-purple-200 to-purple-800',
-        gradient_start:' bg-purple-200'
+        gradient_start:' bg-purple-200',
+        count:"12"
     },
 
 
