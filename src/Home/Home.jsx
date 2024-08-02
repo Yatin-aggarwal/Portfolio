@@ -1,16 +1,16 @@
 function  Home(){
     return (
-        <div className="w-full grid grid-rows-3 h-9/10  ">
+        <div className="absolute w-full grid grid-rows-3 h-9/10  ">
             <div className="  w-full grid row-start-1  row-span-2  content-center pt-1/10 ">
-                <div className="grid grid-cols-11">
-                    <div className="col-start-4 col-span-6">
+                <div className="grid md:grid-cols-11 ">
+                    <div className="md:col-start-4 md:col-span-6 sm:px-3%">
                         <div className=" w-full">
                             &mdash;&mdash;  HELLO
                         </div>
                         <div className="  w-full text-6xl font-semibold pb-2%">
                             I'm <span className="text-rose-600">Yatin</span> Aggarwal
                         </div>
-                        <div className="w-full pb-1/50">
+                        <div className=" md:pt-2% sm:pt-1/10 w-full  pb-1/50">
                             This is Yatin Aggarwal Deep Learning Enthusiast, Web Developer and Competitive Programmer.
                         </div>
                         <a href="https://onedrive.live.com/download?resid=869675663ADDBE%21779&authkey=!AGpJM7E_l1-oT7I&em=2">
@@ -21,7 +21,7 @@ function  Home(){
                     </div>
                 </div>
             </div>
-            <div className="row-start-3 h-full flex ps-3% gap-1% pt-1/10">
+            <div className="overflow-hidden row-start-3 h-full flex ps-3% gap-1% md:pt-1/10 sm:pt-3%">
                 <a href="https://github.com/Yatin-aggarwal"><img
                     src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                     height="24" width="24"/></a>

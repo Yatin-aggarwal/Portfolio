@@ -1,10 +1,10 @@
 function  About(){
     return (
-        <div className="h-9/10  grid grid-cols-2 ">
-            <div className="grid justify-items-center mt-1/50">
-                <img src={"https://lh3.googleusercontent.com/drive-viewer/AKGpihaxM_cfF89m4R4SWhWO-zOHYLwLLGlHQRgKjQTNnZSlLhKZ7SWUVryJDXhx2bHmSV1vKR5faruLr11ruSqLyKnTPWZrrrPjeg=s1600-rw-v1"} className=" rounded-2xl h-9/10"/>
+        <div className="h-9/10  md:grid md:grid-cols-2 sm:flex sm:flex-col ">
+            <div className=" grid justify-items-center mt-1/50 sm:px-1/10 pb-6%">
+                <img src={"https://onedrive.live.com/embed?resid=869675663ADDBE%21773&authkey=%21AJ8skQPb-r7sRlg&width=1024&height=887"} className=" rounded-2xl md:h-9/10 sm:h-full"/>
             </div>
-            <div className=" mt-1/50 w-full ">
+            <div className=" md:mt-1/50 w-full sm:px-2% ">
                 <div className="w-full ">
                     <h1 className="text-3xl font-bold">Hello!</h1>
                 </div>
